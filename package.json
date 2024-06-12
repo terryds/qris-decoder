@@ -1,6 +1,6 @@
 {
   "name": "@terryds/qris-decoder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "QRIS Decoder ( Quick Response Code Indonesian Standard )",
   "main": "index.js",
   "directories": {
