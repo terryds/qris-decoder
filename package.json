@@ -1,7 +1,7 @@
 {
-  "name": "qris-decoder",
+  "name": "@terryds/qris-decoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Use QR to Text, such as \"https://qrcoderaptor.com\"\r 2. You will get the encoded text that has the information\r 3. Go to `examples/qris-decoder.js` to see how you could use this script",
   "main": "index.js",
   "directories": {
     "example": "examples"
@@ -11,6 +11,18 @@
   },
   "keywords": [],
   "type": "module",
-  "author": "",
-  "license": "ISC"
+  "author": "Terry Djony",
+  "license": "MIT",
+  "dependencies": {
+    "qris-decoder": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terryds/qris-decoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/terryds/qris-decoder/issues"
+  },
+  "homepage": "https://github.com/terryds/qris-decoder#readme"
 }
