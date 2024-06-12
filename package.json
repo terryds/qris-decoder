@@ -14,7 +14,7 @@
   "author": "Terry Djony",
   "license": "MIT",
   "dependencies": {
-    "qris-decoder": "^1.0.0"
+    "qris-decoder": "^1.0.1"
   },
   "devDependencies": {},
   "repository": {
