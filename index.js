@@ -1,3 +1,1 @@
-import qrisDecoder from "./src/qris-decoder";
-
-export default qrisDecoder;
+export { decodeFromString } from "./src/qris-decoder.js";

@@ -2,7 +2,7 @@
 import tagsArray from './helpers/tags.js'
 
 // Function to decode the QRIS payload
-export default function (qrisPayload) {
+export function decodeFromString(qrisPayload) {
     const data = {};
 
     // Function to parse the QRIS payload

@@ -4,6 +4,43 @@
 2. You will get the encoded text that has the information
 3. Go to `examples/qris-decoder.js` to see how you could use this script
 
+# Usage
+
+```js
+import { decodeFromString } from 'qris-decoder';
+
+console.log(decodeFromString("00020101021126680016ID.CO.TELKOM.WWW011893600898026635207502150001952663520750303UMI51440014ID.CO.QRIS.WWW0215ID10211254059720303UMI5204549953033605502015802ID5906BIOLBE6011KAB. MALANG610565168622005091147938120703A03630404CB"))
+```
+
+will output
+
+```js
+{
+  payload_format_indicator: '01',
+  point_of_initiation_method: 'STATIC',
+  merchant_information_26: {
+    global_unique_identifier: 'ID.CO.TELKOM.WWW',
+    merchant_pan: '936008980266352075',
+    merchant_id: '000195266352075',
+    merchant_criteria: 'UMI'
+  },
+  merchant_information_51: {
+    global_unique_identifier: 'ID.CO.QRIS.WWW',
+    merchant_id: 'ID1021125405972',
+    merchant_criteria: 'UMI'
+  },
+  mcc: '5499',
+  transaction_currency: 'RUPIAH',
+  tip_indicator: 'INPUT_TIP',
+  country_code: 'ID',
+  merchant_name: 'BIOLBE',
+  merchant_city: 'KAB. MALANG',
+  merchant_postal_code: '65168',
+  additional_data: { reference_label: '114793812', terminal_label: 'A03' },
+  crc: '04CB'
+}
+```
+
 
 # QRIS Glossarium & Informasi yang terkandung
 
