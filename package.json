@@ -1,7 +1,7 @@
 {
   "name": "@terryds/qris-decoder",
   "version": "1.0.1",
-  "description": "1. Use QR to Text, such as \"https://qrcoderaptor.com\"\r 2. You will get the encoded text that has the information\r 3. Go to `examples/qris-decoder.js` to see how you could use this script",
+  "description": "QRIS Decoder ( Quick Response Code Indonesian Standard )",
   "main": "index.js",
   "directories": {
     "example": "examples"
